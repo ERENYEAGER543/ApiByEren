@@ -1,6 +1,6 @@
 <?php
 
-// Check if required parameters are set
+// Check if required parameters aree set
 if (isset($_GET['uid']) && isset($_GET['server_name'])) {
     // Get the values from the URL parameters
     $uid = $_GET['uid'];
